@@ -1,0 +1,22 @@
+menu "ESP MT6701 I2C"
+
+    config ESP_MT6701_I2C_PORT_NUM
+        int "MT6701 I2C Port number"
+        range 0 1 
+        default 0
+
+    config ESP_MT6701_I2C_SDA_PIN_NUM
+        int "MT6701 I2C SDA Pin number"
+        range 0 ENV_GPIO_OUT_RANGE_MAX
+        default 35
+
+    config ESP_MT6701_I2C_SCL_PIN_NUM
+        int "MT6701 I2C SCL Pin number"
+        range 0 ENV_GPIO_OUT_RANGE_MAX
+        default 36
+
+    config ESP_MT6701_I2C_SCL_SPEED
+        int "MT6701 I2C SCL Speed"
+        default 400000
+
+endmenu
