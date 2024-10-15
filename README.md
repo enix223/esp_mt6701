@@ -15,6 +15,31 @@
 | 3V3 | VCC |
 | GND | GND |
 
+## How to use
+
+1. Create MT6701 handler
+
+```c
+esp_mt6701_dev_handle_t handle;
+esp_mt6701_create(ESP_MT6701_I2C_ADDRESS_DEFAULT, &handle);
+```
+
+2. Read angle
+
+```c
+int16_t angle_i;
+float angle_f;
+esp_mt6701_get_angle(handle, &angle_i, &angle_f);
+```
+
+3. Deallocate handle (optional)
+
+```c
+esp_mt6701_delete(handle);
+```
+
+For more detail, please refer to [example](./example/) dir.
+
 ## Example Running log
 
 ```

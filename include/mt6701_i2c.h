@@ -29,7 +29,7 @@ esp_err_t esp_mt6701_create(uint16_t dev_addr, esp_mt6701_dev_handle_t *handle);
 /**
  * @brief Delete and release a sensor object
  *
- * @param handle object handle of mt6701
+ * @param[in] handle object handle of mt6701
  *
  * @return
  *     - ESP_OK Success
