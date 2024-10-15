@@ -1,4 +1,5 @@
 version: "0.1.0"
+license: "MIT"
 description: ESP MT6701 Driver (Hall Based Angle Position Encoder Sensor)
 url: https://github.com/enix223/esp_mt6701
 dependencies:

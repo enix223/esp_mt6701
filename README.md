@@ -1,10 +1,10 @@
 # ESP MT6701 Driver
 
-![](./images/esp32s3-mt6701.jpg)
+![](https://github.com/enix223/esp_mt6701/blob/main/images/esp32s3-mt6701.jpg)
 
 ## Requirement
 
-* esp-idf >= 5.3
+* esp-idf >= 5.2
 
 ## Pin connect
 
